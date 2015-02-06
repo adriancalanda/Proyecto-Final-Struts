@@ -22,8 +22,7 @@ public class ParadaTaxiDAO {
 		Connection conexion = getDataSource().getConnection();
 		ArrayList<ParadaTaxiVO> lista = new ArrayList<ParadaTaxiVO>();
 
-		PreparedStatement st = conexion
-				.prepareStatement("SELECT * FROM PARADA_TAXI");
+		PreparedStatement st = conexion.prepareStatement("SELECT * FROM PARADA_TAXI");
 		ResultSet rs = st.executeQuery();
 		while (rs.next()) {
 			lista.add(new ParadaTaxiVO(rs.getInt(1), rs.getString(2), rs

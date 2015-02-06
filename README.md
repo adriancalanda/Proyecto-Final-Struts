@@ -1,6 +1,8 @@
 # Proyecto-Final-Struts
-Es una aplicación en Struts que vamos a realizar:
-Crear los DAO con JNDI 
-Crear los ficheros properties
-Ver listado de todos los objetos
-Ver la ficha de un solo objeto
+### Que es? ###
+Es una aplicación en Struts gestionando las paradas de taxis.
+### Lo que hay que realizar: ###
+1. Crear los DAO con JNDI 
+2. Crear los ficheros properties
+3. Ver listado de todos los objetos
+4. Ver la ficha de un solo objeto
